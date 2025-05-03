@@ -14,4 +14,4 @@ d3d9_InitTexture(): texture format chosen = 8/8/8/8
 d3d9_InitTexture(): texture format chosen = 8/8/8/8
 d3d9_InitTexture(): texture format chosen = 8/8/8/8
 d3d9_InitTexture(): texture format chosen = 8/8/8/8
-gx3d_FreeAllObjects(): Freeing 9 objects left in memory
+gx3d_FreeAllObjects(): Freeing 7 objects left in memory

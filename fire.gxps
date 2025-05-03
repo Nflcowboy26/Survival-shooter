@@ -2,8 +2,8 @@
 
 start particle_system
 
-image color = Objects\Images\ghosts.bmp
-image alpha = Objects\Images\ghosts_fa.bmp
+image color = Objects\Images\fireball_d512.bmp
+image alpha = Objects\Images\fireball_d512_fa.bmp
 emitter type = circle
 emitter radius = 2
 attached = false

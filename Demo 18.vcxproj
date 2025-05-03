@@ -43,7 +43,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\dev2025\src\dev2012w7\dev2012w7\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\dev2025\src\dev2012w7\dev2012w7\lib;C:\dev2025\src\DirectX SDK\DirectX SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\dev2025\lib;C:\dev2025\src\dev2012w7\dev2012w7\lib;C:\dev2025\src\DirectX SDK\DirectX SDK\Lib\x86;$(LibraryPath)</LibraryPath>
     <ExecutablePath>C:\dev2025\src\dev2012w7\dev2012w7\bin;C:\dev2025\src\DirectX SDK\DirectX SDK\Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -65,7 +65,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>copy Debug\*.exe .</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
